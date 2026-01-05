@@ -57,16 +57,20 @@ const Contact = () => {
                   imgPath={"/Email.svg"}
                   title={"Email"}
                   text={"info@juneinfra.com"}
+                  href={"mailto:info@juneinfra.com"}
+                  
                 />
                 <ContactCard
                   imgPath={"/Email.svg"}
                   title={"Partnership"}
                   text={"partnerships@juneinfra.com"}
+                  href={"mailto:partnerships@juneinfra.com"}
                 />
                 <ContactCard
                   imgPath={"/Phone.svg"}
                   title={"Phone Number"}
                   text={"+234(0)7050247379"}
+                  href={"https://wa.me/2347050247379"}
                 />
               </div>
         </section>

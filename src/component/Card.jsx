@@ -65,9 +65,9 @@ export const CorePillars = ({ imgPath, title, text, cardBg="bg-white", imageSz="
 
 // CONTACT-CARD
 
-export const ContactCard = ({ imgPath, title, text, cardBg="bg-white", imageSz="w-20"}) => {
+export const ContactCard = ({ imgPath, title,href, text, cardBg="bg-white", imageSz="w-20"}) => {
  return(
-  <section style={{ animationDelay: "0.2s"}} className={`${cardBg} slide-in hover:shadow-md cursor-pointer font-inter font-normal rounded-lg flex flex-col items-center text-center px-8 pt-4  pb-15 gap-8`}>
+  <a href={href} target='_blank' rel="noopener noreferrer"style={{ animationDelay: "0.2s"}} className={`${cardBg} slide-in hover:shadow-md cursor-pointer font-inter font-normal rounded-lg flex flex-col items-center text-center px-8 pt-4  pb-15 gap-8`}>
 
     <img src={imgPath} alt='vectorImg' className={`${imageSz} `} />
 
@@ -75,7 +75,7 @@ export const ContactCard = ({ imgPath, title, text, cardBg="bg-white", imageSz="
       <span className='font-bold text-2xl'>{title}</span>
       <span className='text-[#121212] text-[24px]'>{text}</span>
     </div>
-  </section>
+  </a>
  )
 }
 

@@ -4,5 +4,6 @@ export const AppRoutes = {
   solutions: "/solutions",
   products: "/products",
   contact: "/contact",
+  pagenotfound:"*",
 
 }

@@ -49,7 +49,7 @@ const Footer = () => {
                   PRODUCT
                   <div className='flex flex-col text-base pt-2 font-light leading-7 '>
                     <NavLink to={AppRoutes.solutions} onClick={() => window.scrollTo(0, 0)}  className='hover:text-[#a16afa] w-max'>Solutions</NavLink>
-                    <NavLink to={"https://skygrit.juneinfra.com/"}  className='hover:text-[#a16afa] w-max'>Skygrit</NavLink>
+                    <NavLink to={"https://skygrit.juneinfra.com/"} target='_blank' rel='noopener'  className='hover:text-[#a16afa] w-max'>Skygrit</NavLink>
                     <NavLink className='hover:text-[#a16afa] w-max'>Developers</NavLink>
                   </div>
                 </div>
